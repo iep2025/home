@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 :root {
-  --color-primary: #1E3A8A;
+  --color-primary: #dae0f1;
   --color-secondary: #D97706;
   --color-accent: #F59E0B;
   --color-bg: #F9FAFB;
   --color-text: #1F2937;
   --color-white: #FFFFFF;
   --color-dark: #111827;
-  
+
   --font-body: 'Inter', sans-serif;
   --font-heading: 'Playfair Display', serif;
-  
+
   --spacing-container: 1200px;
   --spacing-padding: 2rem;
 }
@@ -30,7 +30,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   color: var(--color-primary);
   line-height: 1.2;
